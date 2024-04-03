@@ -3,21 +3,21 @@
 # 1. Solicite a estudante os seguintes dados: nome, ano que conheceu o LinkedIn, ano atual e os cursos realizados no LinkedIn Learning separados por virgula em ordem cronológica
 estudante = {}
 
-#estudante['nome'] = input('Qual seu nome? ')
-#estudante['ano_conheceu_linkedin'] = int(input('Em qual ano você conheceu o Linkedin? '))
-#estudante['ano_atual'] = int(input('Qual é seu ano atual? '))
-#cursos = input('Quais os cursos você já fez no Linkedin Learning? (separe-os com vírgula) ')
+estudante['nome'] = input('Qual seu nome? ')
+estudante['ano_conheceu_linkedin'] = int(input('Em qual ano você conheceu o Linkedin? '))
+estudante['ano_atual'] = int(input('Qual é seu ano atual? '))
+cursos = input('Quais os cursos você já fez no Linkedin Learning? (separe-os com vírgula) ')
 
 
-#estudante['cursos'] = cursos.split(', ')
+estudante['cursos'] = cursos.split(', ')
 
 # 2. Armazene esses dados em um dicionário
 
 
 
 # 3. Imprima na tela uma string com as informações de nome, ano_conheceu_linkedin, total de anos transcurridos, total de cursos realizados e (apenas) o primeiro e último curso.
-#total_anos = estudante['ano_atual'] - estudante['ano_conheceu_linkedin']
-#total_cursos = len(estudante['cursos'])
+total_anos = estudante['ano_atual'] - estudante['ano_conheceu_linkedin']
+total_cursos = len(estudante['cursos'])
 
-#print(f"Oi {estudante['nome']}, desde {estudante['ano_conheceu_linkedin']} você conheceu o linkedin. Nesses {total_anos} anos, você realizou {total_cursos} cursos, sendo o primeiro cursos {estudante['cursos'][0]} e o último curso {estudante ['cursos'][-1]}")
+print(f"Oi {estudante['nome']}, desde {estudante['ano_conheceu_linkedin']} você conheceu o linkedin. Nesses {total_anos} anos, você realizou {total_cursos} cursos, sendo o primeiro cursos {estudante['cursos'][0]} e o último curso {estudante ['cursos'][-1]}.")
 
