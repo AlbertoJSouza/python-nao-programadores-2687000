@@ -8,11 +8,9 @@ estudante['ano_conheceu_linkedin'] = int(input('Em qual ano você conheceu o Lin
 estudante['ano_atual'] = int(input('Qual é seu ano atual? '))
 cursos = input('Quais os cursos você já fez no Linkedin Learning? (separe-os com vírgula) ')
 
-
 estudante['cursos'] = cursos.split(', ')
 
 # 2. Armazene esses dados em um dicionário
-
 
 
 # 3. Imprima na tela uma string com as informações de nome, ano_conheceu_linkedin, total de anos transcurridos, total de cursos realizados e (apenas) o primeiro e último curso.
